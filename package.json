@@ -1,7 +1,7 @@
 {
   "name": "@mish-tv/esbuild-jest",
   "version": "0.0.1",
-  "description": "A very simple transformer to use esbuild for jest.",
+  "description": "Very simple transformer to use esbuild for jest.",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "scripts": {
