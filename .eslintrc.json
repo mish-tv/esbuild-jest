@@ -39,54 +39,6 @@
     "import-helpers/order-imports": ["error", {
       "groups": [
         "module",
-        [
-          "/@mish/logger/",
-          "/@mish/universal-settings/",
-          "/@mish/utilities/",
-          "/@mish/locales/",
-          "/@mish/datastore/",
-          "/@mish/rpc-core/",
-          "/@mish/rpc-server/",
-          "/@mish/rpc-client/",
-          "/@mish/rpc-deploy/",
-          "/@mish/models/",
-          "/@mish/schemas-rpc/"
-        ],
-        [
-          "/@server/datastore-manipulators/",
-          "/@server/shared/",
-          "/@server-services/shared/",
-          "/@server-services/datastore/",
-          "/@server-services/google-identity-platform/",
-          "/@server-services/akamai-edgeauth/",
-          "/@server-services/s3/",
-          "/@server-services/stripe/",
-          "/@server-services/cloud-storage/",
-          "/@server-services/media-convert/",
-          "/@server-services/picker/",
-          "/@server-services/across/",
-          "/@server-services/tests/",
-          "/@server/plugins/",
-          "/@server/procedures/",
-          "/@server/webpack-config/",
-          "/@server/scripts/"
-        ],
-        [
-          "/@web/platform/",
-          "/@web/schemes/",
-          "/@web/next-config/",
-          "/@web/routings/",
-          "/@web/stores/",
-          "/@web/components/"
-        ],
-        "/^@packages/",
-        "/^@requests/",
-        "/^@models/",
-        "/^@stores/",
-        "/^@selectors/",
-        "/^@foundations/",
-        "/^@layouts/",
-        "/^@components/",
         ["parent", "index", "sibling"]
       ],
       "newlinesBetween": "always"
